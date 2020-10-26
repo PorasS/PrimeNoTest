@@ -16,7 +16,7 @@ public class PrimeTest {
 			
 			if(n%i==0) {
 				
-				System.out.println(n+" is not prime ,plz enter prime no: ");
+				System.out.println(n+" is not prime number ,plz enter prime no: ");
 				flag=1;
 		        break;
 				
@@ -26,7 +26,7 @@ public class PrimeTest {
 		}
 	
 		if(flag==0) {
-			System.out.println(n+" is a prime no: ");
+			System.out.println(n+" is a prime number ");
 			
 		}
 	}
